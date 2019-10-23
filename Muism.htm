@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- saved from url=(0078)file:///Users/ryankang/Desktop/Korean%20Shamanistic%20Rituals/Muism/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        Muism
+    </title>
+
+    <script src="./Muism_files/jquery.min.js"></script>
+    <link href="./Muism_files/css" rel="stylesheet">
+    <link href="./Muism_files/css(1)" rel="stylesheet">  
+      <script>
+        $(document).ready(() => {
+            $("#one").click(() => {
+                if ($("#one").hasClass("open")) {
+                    $("#one").removeClass("open")
+                    $("#one").animate({
+                        height: "30vw"
+                    });
+                    $("one-mid").removeClass("mid-open");
+                }
+                else {
+                    $("#one").addClass("open")
+                    $("#one").animate({
+                        height: "42vw"
+                    });
+                    $("one-mid").addClass("mid-open");
+                }
+            })
+
+            $("#two").click(() => {
+                if ($("#two").hasClass("open")) {
+                    $("#two").removeClass("open")
+                    $("#two").animate({
+                        height: "10vw"
+                    });
+                    $("#two-mid").removeClass("mid-open");
+                }
+                else {
+                    $("#two").addClass("open")
+                    $("#two").animate({
+                        height: "30vw"
+                    });
+                    $("#two-mid").addClass("mid-open");
+                }
+            })
+            $("#three").click(() => {
+                if ($("#three").hasClass("open")) {
+                    $("#three").removeClass("open")
+                    $("#three").animate({
+                        height: "10vw"
+                    });
+                    $("#three-mid").removeClass("mid-open");
+
+                }
+                else {
+                    $("#three").addClass("open")
+                    $("#three").animate({
+                        height: "30vw"
+                    });
+                    $("#three-mid").addClass("mid-open");
+
+                }
+            })
+            $("#four").click(() => {
+                if ($("#four").hasClass("open")) {
+                    $("#four").removeClass("open")
+                    $("#four").animate({
+                        height: "20vw"
+                    });
+                    $("#four-mid").removeClass("mid-open");
+
+                }
+                else {
+                    $("#four").addClass("open")
+                    $("#four").animate({
+                        height: "40vw"
+                    });
+                    $("#four-mid").addClass("mid-open");
+
+                }
+            })
+        })
+    </script>
+    <link href="./Muism_files/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-cont">
+        <div class="section-cont" id="one">
+            <div class="closed"> </div>
+
+            <div class="opened"></div>
+        </div>
+        <div class="section-cont open" id="two" style="height: 30vw;">
+            <div class="section-content">
+                <div class="heading-container">
+                    무당
+                </div>
+                <div class="line"></div>
+                <div class="section-description">
+                    A shaman one who practices muism. A mudang is usually reffered to as a woman. Mudangs are people who
+                    got possessed or called by spirits and they are called to practice rituals. They are said to have
+                    other worldly powers.
+                </div>
+                <div class="section-mid mid-open" id="two-mid"></div>
+                <div class="section-overflow">
+                    <div class="section-image" style="background-image: url(&#39;Mudang1.png&#39;)"></div>
+                    <div class="section-image" style="background-image: url(&#39;Mudang2.jpg&#39;)"></div>
+                    <div class="section-image" style="background-image: url(&#39;Mudang3.jpeg&#39;)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-cont" id="three">
+            <div class="section-content">
+                <div class="heading-container">
+                    만신
+                </div>
+                <div class="line"></div>
+                <div class="section-description">
+                    The word "manshin" literally means 10,00 spirits. It is another way to refer to a mudang. Some
+                    mudangs would rather be called a manshin.
+                </div>
+                <div class="section-mid" id="three-mid"></div>
+                <div class="section-overflow">
+                    <div class="section-image" style="background-image: url(&#39;Manshin1.jpg&#39;)"></div>
+                    <div class="section-image" style="background-image: url(&#39;Manshin2.jpeg&#39;)"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-cont" id="four">
+             <div class="Grouped"> Two main objects that shamans worship and ritualize.
+                  </div>
+                <div class="section-content">
+                        <div class="heading-container">
+                            만신
+                        </div>
+                        <div class="line"></div>
+                        <div class="section-description">
+                            The word "manshin" literally means 10,00 spirits. It is another way to refer to a mudang. Some
+                            mudangs would rather be called a manshin.
+                        </div>
+                        <div class="section-mid" id="three-mid"></div>
+                        <div class="section-overflow">
+                            <div class="section-image" style="background-image: url(&#39;Manshin1.jpg&#39;)"></div>
+                            <div class="section-image" style="background-image: url(&#39;Manshin2.jpeg&#39;)"></div>
+                        </div>
+                    </div>
+
+        </div>
+        <div class="section-cont">
+
+        </div>
+        <div class="section-cont">
+
+        </div>
+        <div class="section-cont">
+
+        </div>
+    </div>
+
+
+
+</body></html>

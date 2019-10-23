@@ -1,0 +1,308 @@
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.yeon{
+    font-family: 'Gugi', cursive;
+    font-size: 7vh;
+    position: relative;
+}
+.headbox {
+    
+    background-color: white;
+    height: 40vh;
+    background-position: center;
+    background-image: url("title3.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.box {
+    border-style: solid;
+    border-color: black;
+    position: absolute;
+    text-align: center;
+    top: 10vh;
+left: 40%;
+right: 40%;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vw;
+    background: white;
+    padding: 2vh;
+}
+.section-cont {
+    color: white;
+    padding: 2vh;
+    overflow: hidden;
+}
+
+.section-content {
+    display: grid;
+    grid-template-rows: 10.5vh .5vh auto;
+    grid-template-columns: 17% 5% 83%;
+    padding-left: 6vw;
+    padding-right: 10vw;
+    margin-top: 1vh;
+}
+
+.section-title {
+    color:white;
+}
+
+.section-mid {
+    background-color: white;
+    grid-row: 2;
+    grid-column: 1/4;
+    transition: all .5s;
+}
+
+.mid-open {
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.section-overflow {
+    grid-row: 3;
+    grid-column: 3;
+    display: flex;
+}
+
+.section-image {
+    height: 21vh;
+    width: 12vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+.Grouped {
+    font-size: 3vh;
+    justify-content: center;
+    text-align: center;
+    padding: 1vh;
+    
+}
+
+.heading-container {
+    font-size: 5vh;
+    font-family: 'Gugi', cursive;
+    text-align: right;
+    margin-top: -1vh;
+    margin-right: 3vw;
+    
+}
+
+.section-description {
+    width: 70vw;
+    font-size: 2vh;
+}
+    
+
+.line {
+    background-color:white;
+    width: .26vw;
+    height: 11vh;
+    position: relative;
+    top: -2.0vh;
+    margin: 0px 2vw;
+}
+
+
+.closed { 
+    background-color: red;
+    height: 29vh;
+    padding: .5vh .5vw;
+    margin-bottom: 4vh;
+}
+
+.opened {
+    background-color: blue;
+    height: 9vh;
+    padding: .5vh .5vw; 
+}
+
+
+
+.section-cont .test {
+    color: pink;
+}
+.hoverable {
+    cursor:default;
+    text-decoration:none;
+  }
+.hover {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3vh;
+}
+
+
+  .hoverable .hover {
+    display:none;
+  }
+  .hoverable:hover .normal {
+    display:none;
+  }
+  .hoverable:hover .hover {
+    display:inline;  /* CHANGE IF FOR BLOCK ELEMENTS */
+  }
+#two {
+    height: 10vh;
+    background: red;
+    transition: all .5s;
+}
+#two:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#three{
+    height: 10vh;
+    background: blue;
+    transition: all .5s;
+}
+#three:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#four{
+    height: 10vh;
+    background: yellow;
+    transition: all .5s;
+    color: black
+
+}
+#four:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#five{
+    height: 10vh;
+    background: yellow;
+    transition: all .5s;
+    color: black
+}
+#five:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#six{
+    height: 10vh;
+    background: red;
+    color: white;
+}
+#seven{
+    height: 10vh;
+    background: red;
+    transition: all .5s;
+    color: white;
+}
+#eight {
+    height: 10vh;
+    background: blue;
+    color: white;
+}
+
+#nine{
+    height: 10vh;
+    background: blue;
+    transition: all .5s;
+    color: white
+
+}
+#nine:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#ten{
+    height: 10vh;
+    background: blue;
+    transition: all .5s;
+    color: white
+
+}
+#ten:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#eleven{
+    height: 10vh;
+    background: blue;
+    transition: all .5s;
+    color: white
+
+}
+#eleven:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#twelve{
+    height: 10vh;
+    background: yellow;
+    transition: all .5s;
+    color: black
+
+}
+#twelve:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#thirteen{
+    height: 10vh;
+    background: red;
+    transition: all .5s;
+    color: white
+
+}
+#thirteen:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#fourteen{
+    height: 10vh;
+    background: blue;
+    transition: all .5s;
+    color: white
+
+}
+#fourteen:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#fifteen{
+    height: 10vh;
+    background: yellow;
+    transition: all .5s;
+    color: black
+
+}
+#fifteen:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#sixteen{
+    height: 10vh;
+    background: red;
+    transition: all .5s;
+    color: white
+
+}
+#sixteen:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}

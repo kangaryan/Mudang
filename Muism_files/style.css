@@ -1,0 +1,144 @@
+.main-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: 'Montserrat'
+}
+
+.section-cont {
+    color: white;
+    padding: 2vh;
+    overflow: hidden;
+}
+
+.section-content {
+    display: grid;
+    grid-template-rows: 10.5vh .5vh auto;
+    grid-template-columns: 15% 5% 85%;
+    padding-left: 6vw;
+    padding-right: 10vw;
+    margin-top: 1vh;
+}
+
+.section-title {
+    color:white;
+}
+
+.section-mid {
+    background-color: white;
+    grid-row: 2;
+    grid-column: 1/4;
+    transition: all .5s;
+}
+
+.mid-open {
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.section-overflow {
+    grid-row: 3;
+    grid-column: 3;
+    display: flex;
+}
+
+.section-image {
+    height: 18vh;
+    width: 12vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2vw;
+    margin-top: 1vw;
+}
+
+.Grouped {
+    font-size: 3vw;
+    color: black;
+    justify-content: center;
+    text-align: center;
+    padding: 1vh;
+}
+
+.heading-container {
+    font-size: 7vw;
+    font-family: 'Yeon Sung', cursive;
+    margin-top: -1vh;
+    justify-content: center
+}
+
+.section-description {
+    width: 70vw;
+    font-size: 2vh;
+}
+    
+
+.line {
+    background-color:white;
+    width: .26vw;
+    height: 11vh;
+    position: relative;
+    top: -2.0vh;
+    margin: 0px 2vw;
+}
+
+
+.closed { 
+    background-color: red;
+    height: 29vh;
+    padding: .5vh .5vw;
+    margin-bottom: 4vh;
+}
+
+.opened {
+    background-color: blue;
+    height: 9vh;
+    padding: .5vh .5vw; 
+}
+
+#one {
+    height: 30vw;
+    background: lightgrey;
+    transition: all .5s;
+    color: black;
+}
+
+#one:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+
+.section-cont .test {
+    color: pink;
+}
+
+#two {
+    height: 10vw;
+    background: red;
+    transition: all .5s;
+}
+#two:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#three{
+    height: 10vw;
+    background: blue;
+    transition: all .5s;
+}
+#three:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
+#four{
+    height: 20vw;
+    background: yellow;
+    transition: all .5s;
+}
+#four:hover {
+    color: white;
+    background: black;
+    transition: all .5s;
+}
